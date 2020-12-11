@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+      <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane prefHeight="231.0" prefWidth="392.0" GridPane.rowIndex="1">
+            <children>
+                <Button fx:id="btn_generar" layoutX="257.0" layoutY="185.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Generar" />
+            <ImageView id="img_check" fx:id="img_check" fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" translateX="-70.0" translateY="65.0" visible="false" AnchorPane.bottomAnchor="81.0" AnchorPane.rightAnchor="192.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <image>
+                  <Image url="@checked%20(1).png" />
+               </image>
+            </ImageView>
+                <TextField fx:id="txt_cantSim" layoutX="195.0" layoutY="61.0" prefHeight="25.0" prefWidth="164.0" />
+                <Label layoutX="34.0" layoutY="65.0" prefHeight="17.0" prefWidth="138.0" text="Cantidad de simulaciones" />
+                <Label layoutX="34.0" layoutY="104.0" prefHeight="17.0" prefWidth="131.0" text="Desde" />
+                <Label layoutX="34.0" layoutY="141.0" prefHeight="17.0" prefWidth="109.0" text="Hasta" />
+                <TextField fx:id="txt_desde" layoutX="195.0" layoutY="100.0" prefHeight="25.0" prefWidth="164.0" />
+                <TextField fx:id="txt_hasta" layoutX="195.0" layoutY="137.0" prefHeight="25.0" prefWidth="164.0" />
+                <Label layoutX="135.0" text="Panaderia">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Label>
+                <Separator layoutX="2.0" layoutY="42.0" prefHeight="0.0" prefWidth="390.0" />
+            <Button fx:id="btn_limpiar" layoutX="140.0" layoutY="185.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Limpiar" />
+            </children>
+        </AnchorPane>
+    </children>
+</GridPane>

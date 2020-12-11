@@ -1,0 +1,53 @@
+table.tabla71 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border: 3px solid #000000;
+  width: auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.tabla71 td, table.tabla71 th {
+  border: 0px solid #000000;
+  padding: 5px 4px;
+  white-space: nowrap;
+  padding: 10px;
+}
+table.tabla71 tbody td {
+  font-size: 13px;
+}
+
+table.tabla71 thead {
+  background: #CFCFCF;
+  background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+  background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+  background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+  border-bottom: 3px solid #000000;
+}
+table.tabla71 thead th {
+  background: black;
+  position: sticky;
+  font-size: 13px;
+  word-wrap: normal;
+  color: white;
+  top: 0;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+table.tabla71 tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  border-top: 3px solid #000000;
+}
+
+table.tabla71 tfoot td {
+  font-size: 14px;
+}
+
+table.tabla71  .colorEvento {
+    background: #999999;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+tr:hover {background-color: #DCDCDC;}
+
